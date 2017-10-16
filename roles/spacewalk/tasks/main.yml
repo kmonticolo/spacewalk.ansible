@@ -17,6 +17,9 @@
   - name: Install spacewalk-postgresql
     yum: name=spacewalk-postgresql state=present
 
+  - name: Downgrade c3p0
+    command: yum -y downgrade c3p0
+
   - name: Copy answers file for spacewalk setip
     template: src=answers.j2 dest=/var/tmp/answers owner=root group=root mode=0600
 
