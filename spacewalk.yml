@@ -1,6 +1,6 @@
 ---
 - hosts: spacewalk-server
-  sudo: yes
+  become: yes
   pre_tasks:
     - hostname: name=spacewalk02
   roles:
@@ -15,7 +15,7 @@
 
 
 - hosts: spacewalk-server
-  sudo: yes
+  become: yes
 
   vars_prompt:
     - name: "ready_to_go"
