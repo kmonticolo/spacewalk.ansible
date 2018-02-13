@@ -1,6 +1,8 @@
 Spacewalk playbooks and roles
 ==============
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d88bdbc27d7d4347bf8eafd2e8cee980)](https://app.codacy.com/app/kmonticolo/spacewalk.ansible?utm_source=github.com&utm_medium=referral&utm_content=kmonticolo/spacewalk.ansible&utm_campaign=badger)
+
 Install a full Spacewalk server on CentOS 7 and also adds customizations:
 - CentOS 6 base+extras+epel+updates repos, channel and activation key 
 - CentOS 7 base+extras+epel+updates repos, channel and activation key
